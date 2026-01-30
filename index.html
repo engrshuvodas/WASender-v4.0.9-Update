@@ -460,60 +460,631 @@
         }
 
         /* Responsive Design */
-        @media (max-width: 768px) {
+        /* Extra Large Desktop (1200px and up) */
+        @media (min-width: 1200px) {
+            .container {
+                max-width: 1100px;
+            }
+            
             .card {
+                padding: 40px;
+            }
+            
+            .logo h1 {
+                font-size: 36px;
+            }
+            
+            .logo i {
+                font-size: 40px;
+            }
+            
+            .download-btn {
+                padding: 22px 50px;
+                font-size: 20px;
+            }
+        }
+
+        /* Large Desktop (992px - 1199px) */
+        @media (max-width: 1199px) {
+            .container {
+                max-width: 960px;
+            }
+            
+            .card {
+                padding: 35px;
+            }
+        }
+
+        /* Desktop (768px - 991px) */
+        @media (max-width: 991px) {
+            .container {
+                max-width: 720px;
                 padding: 15px;
-                margin: 10px;
+            }
+            
+            .card {
+                padding: 25px;
+                border-radius: 20px;
+            }
+            
+            .logo h1 {
+                font-size: 28px;
+            }
+            
+            .logo i {
+                font-size: 32px;
+            }
+            
+            .download-section {
+                padding: 25px;
+            }
+            
+            .info-item {
+                padding: 12px 15px;
+            }
+            
+            .download-btn {
+                padding: 18px 40px;
+                font-size: 16px;
+            }
+        }
+
+        /* Tablet Landscape (768px - 991px) */
+        @media (max-width: 991px) and (min-width: 768px) {
+            .header {
+                flex-direction: row;
+                gap: 15px;
+            }
+            
+            .info-row {
+                gap: 12px;
+            }
+            
+            .section h3 {
+                font-size: 15px;
+            }
+        }
+
+        /* Tablet Portrait (576px - 767px) */
+        @media (max-width: 767px) {
+            body {
+                padding: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                min-height: 100vh;
+            }
+            
+            .container {
+                max-width: 540px;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .card {
+                padding: 20px;
+                margin: 0;
+                border-radius: 18px;
+                width: 100%;
+                max-width: 540px;
             }
             
             .header {
                 flex-direction: column;
-                gap: 10px;
+                gap: 15px;
                 text-align: center;
+                margin-bottom: 25px;
+            }
+            
+            .logo {
+                justify-content: center;
             }
             
             .logo h1 {
-                font-size: 20px;
+                font-size: 24px;
+            }
+            
+            .logo i {
+                font-size: 28px;
+            }
+            
+            .version {
+                font-size: 13px;
+                padding: 6px 12px;
             }
             
             .download-info {
-                gap: 10px;
+                gap: 12px;
+                margin-bottom: 20px;
             }
             
             .info-row {
                 grid-template-columns: 1fr;
-                gap: 10px;
+                gap: 12px;
+            }
+            
+            .info-item {
+                padding: 12px 15px;
+                border-radius: 12px;
+            }
+            
+            .info-item .label,
+            .info-item .value {
+                font-size: 13px;
+            }
+            
+            .download-section {
+                padding: 20px;
+                margin-bottom: 20px;
+            }
+            
+            .download-btn {
+                padding: 16px 30px;
+                font-size: 15px;
+                border-radius: 12px;
+            }
+            
+            .section {
+                margin-bottom: 18px;
+            }
+            
+            .section h3 {
+                font-size: 15px;
+                margin-bottom: 10px;
+            }
+            
+            .section h3 i {
+                font-size: 13px;
+            }
+            
+            .requirements {
+                padding: 15px;
+                border-radius: 12px;
+            }
+            
+            .req-item {
+                padding: 10px 0;
+            }
+            
+            .req-label,
+            .req-value {
+                font-size: 12px;
             }
             
             .req-item {
                 flex-direction: column;
                 gap: 5px;
                 text-align: left;
+                align-items: flex-start;
             }
             
             .req-value {
                 text-align: left;
             }
             
-         .download-btn {
-                padding: 12px 20px;
-                font-size: 14px;
+            .practices li {
+                font-size: 12px;
+                padding: 10px 0;
             }
             
-            .practices li {
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 8px;
+            .practices i {
+                font-size: 16px;
+                margin-top: 1px;
+            }
+            
+            .disclaimer {
+                padding: 12px;
+                border-radius: 10px;
+            }
+            
+            .disclaimer h4 {
+                font-size: 13px;
+            }
+            
+            .disclaimer p {
+                font-size: 11px;
+            }
+            
+            .footer {
+                padding-top: 12px;
+            }
+            
+            .footer-info p {
+                font-size: 11px;
+                margin-bottom: 5px;
+            }
+            
+            .copyright p {
+                font-size: 10px;
             }
         }
 
-        @media (max-width: 480px) {
+        /* Mobile Large (480px - 575px) */
+        @media (max-width: 575px) {
+            body {
+                padding: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                min-height: 100vh;
+            }
+            
+            .container {
+                max-width: 100%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .card {
+                padding: 18px;
+                border-radius: 15px;
+                width: 100%;
+                max-width: 480px;
+                margin: 0 auto;
+            }
+            
+            .header {
+                margin-bottom: 20px;
+            }
+            
+            .logo h1 {
+                font-size: 22px;
+            }
+            
+            .logo i {
+                font-size: 26px;
+            }
+            
+            .version {
+                font-size: 12px;
+                padding: 5px 10px;
+            }
+            
+            .notice-box {
+                padding: 15px;
+                margin-bottom: 15px;
+                border-radius: 12px;
+            }
+            
+            .notice-header {
+                font-size: 13px;
+                margin-bottom: 10px;
+            }
+            
+            .notice-header i {
+                font-size: 15px;
+            }
+            
+            .notice-content li {
+                font-size: 12px;
+                margin-bottom: 5px;
+            }
+            
+            .download-section {
+                padding: 18px;
+                margin-bottom: 18px;
+                border-radius: 15px;
+            }
+            
+            .download-info {
+                gap: 10px;
+                margin-bottom: 18px;
+            }
+            
+            .info-item {
+                padding: 10px 12px;
+                border-radius: 10px;
+            }
+            
+            .info-item .label,
+            .info-item .value {
+                font-size: 12px;
+            }
+            
+            .download-btn {
+                padding: 14px 25px;
+                font-size: 14px;
+                border-radius: 10px;
+                letter-spacing: 0.3px;
+            }
+            
+            .download-btn i {
+                font-size: 16px;
+            }
+            
+            .section {
+                margin-bottom: 16px;
+            }
+            
+            .section h3 {
+                font-size: 14px;
+                margin-bottom: 8px;
+            }
+            
+            .section h3 i {
+                font-size: 12px;
+            }
+            
+            .requirements {
+                padding: 12px;
+                border-radius: 10px;
+            }
+            
+            .req-item {
+                padding: 8px 0;
+            }
+            
+            .req-label,
+            .req-value {
+                font-size: 11px;
+            }
+            
+            .whats-new li {
+                font-size: 12px;
+                padding: 8px 10px;
+                border-radius: 5px;
+            }
+            
+            .practices li {
+                font-size: 11px;
+                padding: 6px 0;
+            }
+            
+            .practices i {
+                font-size: 14px;
+                margin-top: 0;
+            }
+            
+            .practices li:hover i {
+                transform: scale(1.15) rotate(8deg);
+            }
+            
+            .disclaimer {
+                padding: 10px;
+                border-radius: 8px;
+            }
+            
+            .disclaimer h4 {
+                font-size: 12px;
+                margin-bottom: 6px;
+            }
+            
+            .disclaimer p {
+                font-size: 10px;
+                line-height: 1.4;
+            }
+            
+            .footer {
+                padding-top: 10px;
+            }
+            
+            .footer-info p {
+                font-size: 10px;
+                margin-bottom: 4px;
+            }
+            
+            .copyright p {
+                font-size: 9px;
+            }
+        }
+
+        /* Mobile Small (320px - 479px) */
+        @media (max-width: 479px) {
             body {
                 padding: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                min-height: 100vh;
+            }
+            
+            .container {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .card {
+                padding: 15px;
+                border-radius: 12px;
+                width: 100%;
+                max-width: 420px;
+                margin: 0 auto;
+            }
+            
+            .header {
+                margin-bottom: 18px;
+                padding-bottom: 8px;
+            }
+            
+            .logo {
+                gap: 8px;
+            }
+            
+            .logo h1 {
+                font-size: 20px;
+            }
+            
+            .logo i {
+                font-size: 24px;
+            }
+            
+            .version {
+                font-size: 11px;
+                padding: 4px 8px;
+            }
+            
+            .notice-box {
+                padding: 12px;
+                margin-bottom: 12px;
+                border-radius: 10px;
+            }
+            
+            .notice-header {
+                font-size: 12px;
+                margin-bottom: 8px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 5px;
+            }
+            
+            .notice-header i {
+                font-size: 14px;
+            }
+            
+            .notice-content {
+                margin-left: 15px;
+            }
+            
+            .notice-content li {
+                font-size: 11px;
+                margin-bottom: 4px;
+                line-height: 1.3;
+            }
+            
+            .download-section {
+                padding: 15px;
+                margin-bottom: 15px;
+                border-radius: 12px;
+            }
+            
+            .download-info {
+                gap: 8px;
+                margin-bottom: 15px;
+            }
+            
+            .info-item {
+                padding: 8px 10px;
+                border-radius: 8px;
+            }
+            
+            .info-item .label,
+            .info-item .value {
+                font-size: 11px;
+            }
+            
+            .download-btn {
+                padding: 12px 20px;
+                font-size: 13px;
+                border-radius: 8px;
+                letter-spacing: 0.2px;
+                gap: 8px;
+            }
+            
+            .download-btn i {
+                font-size: 14px;
+            }
+            
+            .section {
+                margin-bottom: 14px;
+            }
+            
+            .section h3 {
+                font-size: 13px;
+                margin-bottom: 6px;
+                gap: 6px;
+            }
+            
+            .section h3 i {
+                font-size: 11px;
+            }
+            
+            .requirements {
+                padding: 10px;
+                border-radius: 8px;
+            }
+            
+            .req-item {
+                padding: 6px 0;
+            }
+            
+            .req-label,
+            .req-value {
+                font-size: 10px;
+            }
+            
+            .whats-new li {
+                font-size: 11px;
+                padding: 6px 8px;
+                border-radius: 4px;
+            }
+            
+            .practices {
+                padding: 0;
+            }
+            
+            .practices li {
+                font-size: 10px;
+                padding: 5px 0;
+                gap: 8px;
+            }
+            
+            .practices i {
+                font-size: 12px;
+                margin-top: 0;
+            }
+            
+            .practices li:hover i {
+                transform: scale(1.1) rotate(5deg);
+            }
+            
+            .disclaimer {
+                padding: 8px;
+                border-radius: 6px;
+            }
+            
+            .disclaimer h4 {
+                font-size: 11px;
+                margin-bottom: 5px;
+            }
+            
+            .disclaimer p {
+                font-size: 9px;
+                line-height: 1.3;
+            }
+            
+            .footer {
+                padding-top: 8px;
+            }
+            
+            .footer-info p {
+                font-size: 9px;
+                margin-bottom: 3px;
+            }
+            
+            .copyright p {
+                font-size: 8px;
+            }
+        }
+
+        /* Ultra Small Mobile (up to 319px) */
+        @media (max-width: 319px) {
+            body {
+                padding: 8px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                min-height: 100vh;
+            }
+            
+            .container {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
             
             .card {
                 padding: 12px;
+                border-radius: 10px;
+                width: 100%;
+                max-width: 300px;
+                margin: 0 auto;
             }
             
             .logo h1 {
@@ -526,15 +1097,91 @@
             
             .download-btn {
                 padding: 10px 15px;
-                font-size: 13px;
+                font-size: 12px;
             }
             
-            .section h3 {
-                font-size: 14px;
+            .info-item {
+                padding: 6px 8px;
             }
             
-            .notice-box {
-                padding: 12px;
+            .info-item .label,
+            .info-item .value {
+                font-size: 10px;
+            }
+        }
+
+        /* Landscape Orientation Optimizations */
+        @media (max-height: 500px) and (orientation: landscape) {
+            body {
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                min-height: 100vh;
+            }
+            
+            .container {
+                width: 100%;
+                max-width: 800px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .card {
+                padding: 15px;
+                margin: 0 auto;
+                max-width: 800px;
+            }
+            
+            .header {
+                margin-bottom: 15px;
+            }
+            
+            .download-section {
+                padding: 15px;
+                margin-bottom: 15px;
+            }
+            
+            .section {
+                margin-bottom: 12px;
+            }
+        }
+
+        /* High DPI/Retina Display Optimizations */
+        @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+            .logo i,
+            .download-btn i,
+            .practices i {
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+        }
+
+        /* Touch Device Optimizations */
+        @media (hover: none) and (pointer: coarse) {
+            .download-btn:hover {
+                transform: none;
+            }
+            
+            .info-item:hover {
+                transform: none;
+            }
+            
+            .logo:hover i {
+                transform: none;
+            }
+            
+            .version:hover {
+                transform: none;
+            }
+            
+            .practices li:hover i {
+                transform: none;
+            }
+            
+            .notice-box:hover {
+                transform: none;
             }
         }
     </style>
