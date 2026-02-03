@@ -4,7 +4,7 @@
   <p>Try WaSender completely free before you buy — No risk, just real results! 💼✨</p>
 </div>
 
-<h2>🚀 WASender New Update Version - v4.11.6 | Fix bugs 100%</h2>
+<h2>🚀 WASender New Update Version - v4.11.8 | Fix bugs 100%</h2>
 
 <p>
   WaSender is an advanced WhatsApp marketing solution built for businesses, digital marketers, and agencies aiming to send unlimited bulk messages using single or multiple WhatsApp accounts effortlessly.
