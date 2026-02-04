@@ -397,14 +397,21 @@
             margin-right: 8px;
         }
 
-        /* Responsive */
+        /* Responsive Design System */
+        @media (max-width: 992px) {
+            .container {
+                max-width: 100%;
+                padding: 10px;
+            }
+        }
+
         @media (max-width: 768px) {
             .header {
-                padding: 30px 20px;
+                padding: 40px 20px;
             }
 
             .app-title {
-                font-size: 24px;
+                font-size: 28px;
             }
 
             .content {
@@ -412,20 +419,65 @@
             }
 
             .info-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .support-grid {
                 grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .header {
+                padding: 30px 15px;
+            }
+
+            .app-title {
+                font-size: 24px;
             }
 
             .download-button {
                 font-size: 16px;
-                padding: 16px 30px;
+                padding: 15px 20px;
             }
 
-            .meta-warning {
+            .support-action-card {
                 padding: 15px;
             }
 
-            .meta-warning-title {
-                font-size: 16px;
+            .whatsapp-float {
+                width: 55px;
+                height: 55px;
+                bottom: 20px;
+                right: 20px;
+            }
+
+            .whatsapp-float svg {
+                width: 30px !important;
+                height: 30px !important;
+            }
+        }
+
+        @media (max-width: 380px) {
+            .header {
+                padding: 25px 10px;
+            }
+
+            .app-title {
+                font-size: 20px;
+            }
+
+            .version-badge {
+                font-size: 12px;
+                padding: 6px 15px;
+            }
+
+            .section-title {
+                font-size: 18px;
             }
         }
 
