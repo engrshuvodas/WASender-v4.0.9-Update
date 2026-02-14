@@ -108,5 +108,5 @@
 
 
 <h4>🧑‍💻 Developed with dedication by 
-  <a href="https://engrshuvodas.github.io/SHUVO-_portfolio/" target="_blank">Engr Shuvo Das</a>
+  <a href="https://engrshuvodas.github.io/me/" target="_blank">Engr Shuvo Das</a>
 </h4>
