@@ -78,15 +78,6 @@
 
 <hr>
 
-<h3>📩 Stay Connected with Me</h3>
-<ul>
-  <li>📘 <a href="https://www.facebook.com/engr.shuvo74886/" target="_blank">Facebook</a></li>
-  <li>📱 <a href="https://wa.me/+919641700503" target="_blank">WhatsApp</a></li>
-  <li>🔗 <a href="https://www.linkedin.com/in/engr-shuvo-das-a28085260/" target="_blank">LinkedIn</a></li>
-  <li>🐱 <a href="https://github.com/engrshuvodas" target="_blank">GitHub</a></li>
-  <li>📸 <a href="https://www.instagram.com/engrshuvo74886/" target="_blank">Instagram</a></li>
-</ul>
-
 <!-- YouTube Channel Section -->
 <h3>📺 Check Out My YouTube Channel</h3>
 <div>
@@ -100,6 +91,22 @@
   </a>
 </p>
 
+### 👨‍💻 Developed By
+**Engr Shuvo Das**
+
+| Platform | Link |
+| :--- | :--- |
+| **WhatsApp** | [Chat Now](https://wa.me/+8801765245872) |
+| **LinkedIn** | [Profile](https://www.linkedin.com/in/engrshuvoda/) |
+| **YouTube** | [Channel](https://www.youtube.com/channel/UCEJ0R871tF2PLT27q9azYWg) |
+| **GitHub** | [Repositories](https://github.com/engrshuvodas) |
+| **Fiverr** | [Hire Me](https://www.fiverr.com/shuvo_das74886) |
+| **Portfolio** | [About Me](https://engrshuvodas.github.io/me/) |
+| **Email** | [engrshuvoda@gmail.com](mailto:engrshuvoda@gmail.com) |
+| **X (Twitter)** | [@engrshuvodas](https://x.com/engrshuvodas) |
+| **Facebook** | [Engr Shuvo](https://www.facebook.com/engr.shuvo74886/) |
+
+
 <h4>🧑‍💻 Developed with dedication by 
-  <a href="https://engrshuvodas.github.io/SHUVO-_portfolio/" target="_blank">Engr Shuvo Das</a>
+  <a href="https://engrshuvodas.github.io/me/" target="_blank">Engr Shuvo Das</a>
 </h4>
